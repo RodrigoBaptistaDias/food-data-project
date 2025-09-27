@@ -1,0 +1,14 @@
+# 01_ingestion_service/requirements.in
+
+# Framework web e servidores de aplicação
+fastapi
+uvicorn[standard]
+gunicorn
+
+# Clientes para APIs externas e Google Cloud
+requests
+google-cloud-storage
+google-cloud-secret-manager
+
+# Utilitário para desenvolvimento local
+python-dotenv
